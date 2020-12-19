@@ -12,36 +12,37 @@
   <div class="mermaid">
 gantt
     title Star Wars Timeline
-    dateFormat Y
+    dateFormat Y/M
     axisFormat %y
 
-    section Prequel<br/>Trilogy
-    The Phantom Menace : -30,-29
-    Attack of the Clones: -22,-21
-    Revenge of the Sith: -19,-18
+      section Prequel<br/>Trilogy
+    The Phantom Menace : -30/1,360d
+    Attack of the Clones: -22/1,360d
+    Revenge of the Sith: -19/1,360d
 
     section Original<br/>Trilogy
-    A New Hope: 0, 1
-    The Empire Strikes Back: 3,4
-    Return of the Jedi: 4,5
+    A New Hope: 0/1, 360d
+    The Empire Strikes Back: 3/1,360d
+    Return of the Jedi: 4/1,360d
 
     
     section Sequel<br/>Trilogy
-    The Force Awakens: 34,35
-    The Last Jedi: 34,35
-    The Rise of Skywalker: 35,36
+    The Force Awakens: 34/1,180d
+    The Last Jedi: 34/6, 180d
+    The Rise of Skywalker: 35/1,360d
 
     section Animated<br/>Series
-    The Clone Wars: -22, -19
-    Star Wars Rebels: -5, -1
+    The Clone Wars: -22/1, 1080d
+    Star Wars Rebels: -5/1, 1440d
     
     section Star Wars<br/>Story
-    Solo - A Star Wars Story : -13, -10
-    Rogue One: -1, 0
+    Solo - A Star Wars Story : -13/1, 1080d
+    Rogue One: -1/1, 360d
 
     section Live Action<br/>Series
-    The Mandalorian: 9,10
+    The Mandalorian: 9/1,360d
 
+            
   </div>
  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
  <script>mermaid.initialize({startOnLoad:true});</script>
